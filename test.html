@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test File</title>
+
+</head>
+<body>
+    <button class="test" id="btn"> Hello World </button>
+
+    <div class="container" id="box"> </div>
+
+    <style>
+
+        body {
+            background-color: #f0ebe3;
+        }
+        
+        .test {
+            width: 100px;
+            height: 40px;
+            border-radius: 7px;
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            position: absolute;
+            top: 350px;
+            left: 720px;
+        }
+
+        .test:hover {
+            box-shadow: 0 0 10px red;
+        }
+
+        .test:active {
+            box-shadow: 0 0 9px blue;
+        }
+
+        .container {
+            position: absolute;
+            width: 80%;
+            height: 250px;
+            background-color: black;
+            top: 50px;
+            left: 150px;
+            border-radius: 25px;
+        }
+
+    </style>
+
+    <script>
+
+        document.getElementById("btn").addEventListener("click", function()
+        {
+            var mybox=document.getElementById("box");
+            if(mybox.style.display=="none")
+            {
+                mybox.style.display="block";
+            }
+            else
+            {
+                mybox.style.display="none";
+            }
+        })
+
+    </script>   
+
+</body>
+</html>

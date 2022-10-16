@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    background-color: #f0ebe3;
+}
+
+.Nav_bar {
+    width: 100%;
+    height:80px;
+    background-color: black;
+    position: absolute;
+    top:0px;
+    z-index: -1;
+}
+
+.Header {
+    color:white;
+    left: 10px;
+    position:relative;
+    top:-6px;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif
+}
+
+.Sub {
+    color: white;
+    left:-136px;
+    top:10px;
+    font-size:12px;
+    font-family: 'montserrat', sans-serif;
+
+    position: relative;
+}
+
+.heading {
+    font-family: 'poppins', sans-serif;
+}
+
+.explain {
+    position: relative;
+    top:1px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.Selector {
+    width: 235px;
+    height: 130px;
+    background-color: black;
+    border-radius: 13px;
+    position: absolute;
+    right: 164px;
+    top: 180px;
+}
+
+.button {
+    position: absolute;
+    right: 265px;
+    top: 175px;
+}
+
+.button2 {
+    position: absolute;
+    right: 180px;
+    top: 175px;
+}
+
+.button3 {
+    position: absolute;
+    right: 295px;
+    top: 228px;
+}
+
+.button4 {
+    position: absolute;
+    right: 185px;
+    top: 228px;
+}
+
+.top {
+    margin-left: -12px;
+}

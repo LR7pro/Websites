@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    background-color: #f0ebe3;
+}
+
+.Nav_bar {
+    width: 100%;
+    height:315px;
+    background-color: black;
+    position: absolute;
+    top:0px;
+    z-index: -1;
+}
+
+.Header {
+    color:white;
+    left: 10px;
+    position:relative;
+    top:-6px;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif
+}
+
+.Sub {
+    color: white;
+    left:-136px;
+    top:10px;
+    font-size:12px;
+    font-family: 'montserrat', sans-serif;
+    position: relative;
+}
+
+.Home {
+    top:20px;
+    left:700x;
+    position: absolute;
+}
+
+.Heading {
+    font-family: 'montserrat', sans-serif;
+    top: 70px;
+    position: relative;
+}
+
+.custom {
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    box-shadow: 0 0 9px;
+    z-index: 1;
+    background-color: #e4dccf;
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.custom:hover {
+    box-shadow: 0 0 9px orange;
+}
+
+.custom:active {
+    box-shadow: 0 0 9px blue;
+}
+
+.time {
+    position: absolute;
+    top: 210px;
+    left: 580px;
+    box-shadow: 0 0 9px;
+    z-index: 1;
+    background-color: #e4dccf;
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.time:hover {
+    box-shadow: 0 0 9px orange;
+}
+
+.time:active {
+    box-shadow: 0 0 9px blue;
+}
+
+.progress {
+    position: absolute;
+    top: 210px;
+    left: 1050px;
+    box-shadow: 0 0 9px;
+    z-index: 1;
+    background-color: #e4dccf;
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.progress:hover {
+    box-shadow: 0 0 9px orange;
+}
+
+.progress:active {
+    box-shadow: 0 0 9px blue;
+}
+
+.settings {
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    width: 150px;
+    height: 150px;
+}
+
+.clock {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 250px;
+    height: 210px;
+}
+
+.prog {
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    width: 160px;
+    height: 160px;
+}
+
+.prog_show {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    top: 450px;
+    left: 300px;
+    display: none;
+}
+
+.time_show {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    top: 450px;
+    left: 300px;
+    display: none;
+}
